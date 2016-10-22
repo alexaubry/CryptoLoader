@@ -6,6 +6,14 @@
 
 This library is only compatible with Vapor's [CLibreSSL](https://github.com/vapor/CLibreSSL) version 1.
 
+## Installation
+
+This library is only available via the Swift Package Manager. To import it in your project, add this line to your `Package.swift`'s dependencies :
+
+~~~swift
+.Package(url: "https://github.com/alexaubry/CryptoLoader", majorVersion: 1)
+~~~
+
 ## Usage
 
 The library defines a set of components that can be loaded inside of the `CryptoLoader.Component` enum : 
